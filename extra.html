@@ -1,0 +1,68 @@
+<div class="container">
+    <table border="0px">
+        <tr>
+            <td class="borderright"><img src="icon.png" class="sideimage" ></td>
+            <td>
+                <div>
+                    <form action="loggedin.html">
+                    <input type="text" placeholder="Enter Username"?" name="name" required>
+                    <input type="password" placeholder="Enter Password" name="password" required><br>
+                    <button type="submit" class="signup">LOG ME IN</button>
+                    </form>
+                </div>
+            </td>
+            
+        </tr>
+    </table>
+</div>
+
+
+.borderright{
+    border-right: 2px solid teal;
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background:radial-gradient(to bottom, #C0BEBC, #FCFAF8,#C0BEBC );
+}
+
+
+               
+/* form*/
+* {box-sizing: border-box}
+input[type=text], input[type=password] {
+   width: 50%;
+   font-size: 20px;
+   padding: 15px;
+   margin: 20px 0 40px 0;
+   display: inline-block;
+   border: none;
+   background: lightgrey;
+}
+input:hover{
+    background-color: white;
+}
+
+button {
+   font-size: 18px;
+   font-weight: bold;
+   background-color: teal;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 30%;
+   opacity: 0.9;
+}
+button:hover {
+   opacity:1;
+}
+

@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <title>HOME APPLIANCES appliances</title>
+        <link rel="icon" type="image/x-icon" href="icon.png">
+        <style>
+        .heading{
+        
+            font-family: Verdana, sans-serif;
+            letter-spacing: 5px;
+            color:teal;
+            text-shadow:30px;
+            
+        }
+        .productlabel{
+            color:teal;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align:center;
+            
+        }
+        form.nosubmit {
+            border: none;
+            padding: 0;
+            margin-left: 75%;
+            margin-top: -3%;
+            }
+
+        input.nosubmit {
+            width: 260px;
+            border: 1px solid teal;
+            display: block;
+            padding: 9px 4px 9px 40px;
+            background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+            }
+        .flex-container{
+            display:flex;
+            margin-top: 3%;
+            margin-left: 25%;
+            margin-right: 5%;
+            margin-bottom: 5%;
+           
+            flex-wrap: wrap;
+        }
+        .flex-container>div{
+           
+            height:700px;
+            width: 200px;
+            margin:20px;
+            padding:5px;
+           
+        }
+        .flex-container>div>img{
+            height:350px;
+            width: 180px;
+            text-align: center;
+            padding:10px;
+        }
+        .box:hover{
+            box-sizing:border-box;
+        }
+        .p1{
+            text-decoration: line-through;
+            color: lightgray;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .p2{
+            color: teal;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+        .cart_button{
+            border:none;
+            background: lightgray;
+            align-items: center;
+            padding:15px;
+            color:teal;
+            margin-left: 30%;
+        }
+        .cart_button:hover{
+            font-weight: bold;
+            background-color: teal;
+            opacity: 0.6;
+            color:white;
+        }
+        /* .zoom {
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        margin: 0 auto;
+    } */
+      
+    .zoom img {
+        width: 100%;
+        transition: 1s all ease-in-out;
+    }
+      
+    .zoom:hover img {
+        transform: scale(0.5);
+    }
+
+.imageaside{
+    width:100px;
+    height:100px;
+    padding:10px;
+}
+.imageaside:hover{
+    width:105px;
+    height: 105px;
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.5);
+}
+        </style>
+    </head>
+    <body>
+      <aside style="background-color: lightgray;width:20%;height:100%;text-align: center;position: fixed;">
+
+        <h3 class="heading">BRANDS</h3>
+        <img src="acre.jpg" class="imageaside">
+        <img src="samsung.jpg" class="imageaside">
+        <img src="sony.jpg" class="imageaside">
+        <img src="lg.jpg" class="imageaside">
+        <img src="mi.jpg" class="imageaside">
+        <img src="oneplus.jpg" class="imageaside">
+        <img src="redmi.jpg" class="imageaside">
+       </aside> 
+       <h3 class="productlabel">HOME APPLIANCES</h3>
+       <form class="nosubmit">
+        <input class="nosubmit" type="search" placeholder="Search...">
+      </form>
+
+            <div class="flex-container">
+
+                <div class="zoom" ><img src="m1.webp" >
+                    <div><p class="p2">Redmi Note 11 (Space Black, 6GB RAM, 128GB Storage)|90Hz FHD+ AMOLED Display | Qualcomm® Snapdragon™ 680-6nm | 
+                        <br><br>
+                        <span class="p1">₹26,000</span>₹20,000</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="m2.webp">
+                    <div><p class="p2">Samsung Galaxy M32 (Light Blue, 6GB RAM, 128GB | FHD+ sAMOLED 90Hz Display | 6000mAh Battery | 64MP Quad Camera<br><br>
+                        <span class="p1">₹31,195</span> ₹28,595</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="m3.webp">
+                    <div><p class="p2">Redmi 9 Activ (Coral Green, 4GB RAM, 64GB Storage)<br><br><br><br><br><br>
+                        <span class="p1">₹21,500</span> ₹15,895</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="m4.webp">
+                    <div><p class="p2">Redmi 9A Sport (Coral Green, 2GB RAM, 32GB Storage) | 2GHz Octa-core Helio G25 Processor | 5000 mAh Battery<br><br><br>
+                        <span class="p1">₹11,850</span> ₹8,950</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="m5.webp">
+                    <div><p class="p2">Samsung Galaxy M12 (Blue,4GB RAM, 64GB Storage) 6000 mAh with 8nm Processor | True 48 MP Quad Camera | 90Hz Refresh Rate
+                        <br><br>
+                        <span class="p1">₹23,900</span> ₹21,500</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="m6.jpg">
+                    <div><p class="p2">Vivo Y73 (Diamond Flare, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers<br><br><br>
+                        <span class="p1">₹19,799</span> ₹16,499</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="m7.jpg">
+                    <div><p class="p2">Samsung Galaxy M33 5G (Mystique Green, 8GB, 128GB Storage) | 5nm Processor | 6000mAh Battery | Voice Focus | 
+                      <br><br><br>
+                        <span class="p1">₹25,790</span> ₹20,200</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="m8.jpg">
+                    <div><p class="p2">OnePlus Nord CE 2 Lite 5G (Blue Tide, 6GB RAM, 128GB Storage)
+                        <br><br><br><br><br>
+                        <span class="p1">₹27,990</span> ₹21,000</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="t1.webp">
+                    <div><p class="p2">Lenovo Tab P11 Plus Tablet (11 inch (27.94 cm), 6 GB, 128 GB, Wi-Fi+LTE, Voice Calling), Slate Grey with 2K Display, 
+                        
+                        <br><br><br>
+                        <span class="p1">₹58,000</span> ₹50,000</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="t2.webp">
+                    <div><p class="p2">Lenovo Tab Yoga Smart Tablet with The Google Assistant (10.1 inch/25.65 cm, 
+                        4GB, 64GB, Wi-Fi + 4G LTE, Calling)<br><br><br>
+                        <span class="p1">₹40,500</span> ₹30,800</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="t3.webp">
+                    <div><p class="p2">Lenovo Tab M10 FHD Plus Tablet (26.16 cm (10.3-inch), 2GB, 32GB, Wi-Fi + LTE, Volte Calling), Platinum Grey<br><br><br>
+                        <span class="p1">₹15,000</span> ₹12,500</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+                <div class="zoom"><img src="t4.webp">
+                    <div><p class="p2">Nokia T20 Tab with 10.36 Inch 2K Screen, Low Blue Light, Wi-Fi, 8200mAh Battery, Android 11 with 2 Years of OS Upgrades & 3 Years of 
+                       <br><br>
+                        <span class="p1">₹23,999</span> ₹24,72</p> <button type="button" class="cart_button">ADD TO CART</button></div></div>
+
+       
+
+                
+            </div>
+      </div>
+    </body>
+</html>

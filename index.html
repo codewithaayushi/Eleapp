@@ -1,0 +1,285 @@
+<html>
+    <head>
+        <title>ELEAPP home page</title>
+        <link rel="icon" type="image/x-icon" href="icon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <script>
+            function validateForm() {
+              let x = document.forms["myForm"]["fname"].value;
+              if (x == "") {
+                alert("Name must be filled out");
+                return false;
+              }
+            }
+            </script>
+            <script>
+                function bigImg(x) {
+                  x.style.height = "250px";
+                  x.style.width = "300px";
+                }
+                
+                function normalImg(x) {
+                  x.style.height = "250px";
+                  x.style.width = "300px";
+                }
+                </script>
+    </head>
+    <body>
+        <!--TOP NAV BAR-->
+<div >
+        <div>
+            <img src="icon.png" class="icon">
+        <h1 class="heading">ELEAPP</h1>
+                <div class="header">
+                    <table border="0px" >
+                        <tr>
+                        <td><a href="" class="menu" style="text-decoration: none;">Home</a></td>
+                        <td><a href="#productrange" class="menu" style="text-decoration: none;">Products</a></td>
+                        <td><a href="#aboutus" class="menu" style="text-decoration: none;">About us</a></td>
+                        <td><a href="#contact" class="menu" style="text-decoration: none;">Contact</a></td>
+                        <td></td>
+                        <td>
+                                <button class="btn " type="button" >
+                                    <a href="myloginsignup.html">
+                                    <svg xmlns="http
+                                    ://www.w3.org/2000/svg" width="20" height="20" fill="teal" class="bi bi-person" viewBox="0 0 16 16">
+                                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                                    </svg>
+                                    </a>
+                                </button>
+                           
+                        
+                    </td>
+                        <!--
+                        <td class="ls ls1 "><a href="myloginsignup.html" style="text-decoration: none;">Login</a></td>
+                        <td class="ls"><a href="myloginsignup.html" style="text-decoration: none;">Signup</a></td>-->
+                        </tr>
+                    </table>
+                   
+                
+                <!--LOGIN SIGN UP BUTTON-->
+               
+               <!-- <img src="search.png" style="width:20px ; height: 20px;">
+                <input type="text" placeholder="Search.." class="searchbar">-->
+        </div>
+</div>
+        <!--COVER PICTURE WITH SOME TEXT ON HOVERING-->
+        <div class="container" style="width:100%;height:500px;">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:100%;height:400px;">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img class="d-block w-100" src="carousel1.avif" alt="1" style="width:100%;">
+                </div>
+          
+                <div class="item">
+                  <img class="d-block w-100" src="carousel2.avif" alt="2" style="width:100%;">
+                </div>
+              
+                <div class="item">
+                  <img class="d-block w-100" src="carousel3.avif" alt="3" style="width:100%;">
+                </div>
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" style="height:100%;"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <!--
+          
+<div class="main">
+       
+            <img src="app1.png" class="app1" >
+            <div class="overlay">
+                <div class="text">
+                    <H1>WELCOME</H1> <BR> TO A WIDE RANGE  OF <BR> ELECTRONICS.
+                </div>
+               
+            </div>
+        </div>
+    -->
+    
+        <!--PROCTS WE SPECIALIZE IN-->
+        <h1 class="heading2">WHAT WE HAVE IN STORE ? </h1>
+
+        <table border="0px" class="producttable">
+            <tr>
+                <td>
+                    <div class="product" id="productrange">
+                        <a href="laptoprange.html">
+                        <img src="laptopsandprinters.png" style="width:100%;height:100%">
+                        </a>
+                        <h3 class="productlabel">LAPTOPS AND PRINTERS</h3>
+                    </div>
+                </td>
+                <td>
+                    <div class="product">
+                        <a href="kitchenappliancesrange.html">
+                        <img src="kitchenappliances.jpg" style="width:100%;height:100%">
+                        </a>
+                        <h3 class="productlabel">KITCHEN APPLIANCES</h3>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product">
+                        <a href="homeappliancesrange.html">
+                        <img src="homeappliances.jpg" style="width:100%;height:100%">
+                        </a>
+                        <h3 class="productlabel">HOME APPLIANCES</h3>
+                    </div>
+                </td>
+                <td>
+                    <div class="product">
+                        <a href="mobilesandtabletsrange.html">
+                        <img src="mobilesandtablets.jpg" style="width:100%;height:100%">
+                        </a>
+                        <h3 class="productlabel">MOBILES AND TABLETS</h3>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <!--Our services-->
+        <div class="services">
+            <a href="services.html" > <h1 class="heading2" style="margin-left: 42%;text-decoration: none;">OUR SERVICES </h1>
+               
+            <div>
+                <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="s3.png" width="300" height="300"><figcaption style="font-weight: bold; text-align: center;">HOME DELIVERY</figcaption></div>
+                <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="s1.png" width="300" height="300"><figcaption style="font-weight: bold; text-align: center;">PRICE COMPARISON</figcaption></div>
+                <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="s4.png" width="300" height="300"><figcaption style="font-weight: bold; text-align: center;">TIMELY MAINTENANCE</figcaption></div>
+                <div><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="s5.png" width="300" height="300"><figcaption style="font-weight: bold; text-align: center;">SELLING AND RESELLING</figcaption></div>
+            </div>
+        </a>
+        </div>
+        <!--hot selling products-->
+       
+        <div class="frame">
+            <h1 class="heading2">MOST LIKED BY CUSTOMERS</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wIjREPQ3Cs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="border:none;
+            width:80%;
+            height:500px;
+            margin-left:10%;
+            margin-top: 2%;
+            margin-bottom: 5%;" title="Hot selling product of the week"></iframe>
+       
+        </div>
+</div>
+<div class="footer">
+    <table border="0px" style="width:100%;height:400px;margin:11px;text-align: center;">
+        <tr>
+          
+            <td style="width:30%;
+            color:white;
+            color:white;font-family: monospace; letter-spacing: 3px;
+            border-right:2px solid white;" id="aboutus">
+                <p style="font-size: 20px;margin-top: 10px;"><b>ABOUT US</b></p>
+                <p style="text-align: justify; margin: 10%;font-family: 'Poppins', sans-serif; ">ELEAPP is your one stop electronics shopping website model which works for providing the best customer service and strives for the best customer experience of &nbsp;&nbsp;&nbsp; online shopping ever !</p>
+                
+                    <p style="text-align: center;margin: 2%;font-family: 'Poppins', sans-serif;text-underline-offset: 3px;"><u>Office Address</u> :<br> Shop no : 2326,<br> 
+                    Puda Complex ,
+                    Patiala , Punjab 
+                    Contact no : 789654123 <br></p>
+                
+        
+            </td>
+            <td style="width:40%;
+            color:white;
+            line-height: 15px;
+            border-right:2px solid white;">
+                <!--feedback form-->
+                <form name="myForm" action="" onsubmit="return validateForm()" method="post" >
+                   <h4 style="font-family:'Poppins', sans-serif ; color: white; letter-spacing: 2px;margin-top: -20px;margin-bottom: 20px;">Your feedback is valuable !</h4>
+                    <input type="text" name="fname" placeholder="Your Name" style="background-color: white;border-radius: 5px;border-left: 2px;border-color: black;"><br>               
+                    <input type="text" name="email" placeholder="Your email" style="background-color: white;border-radius: 5px;"><br>              
+                    <textarea name="comments" placeholder="Feedback here" style="height:50px;background-color:white;border-radius: 5px;"></textarea><br><br>
+                    <input type="submit" value="Submit" class="submit" style="height: 40px;width:120px;border-radius: 5px;">
+                   
+                </form>
+           </td>
+            <td style="width:30%;color:white;font-family: 'Poppins', sans-serif;letter-spacing: 3px;padding-bottom:20px;" id="contact">
+               <p style="margin-top: 5px;"><b> CONTACT US</b></p> <br>
+                <table border="0px;">
+                    <tr>
+                        <td> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="30" height="30"
+                            viewBox="0 0 30 30"
+                            style=" fill:#FFFFFF;"><path d="M 4 5 C 2.9069372 5 2 5.9069372 2 7 L 2 23 C 2 24.093063 2.9069372 25 4 25 L 26 25 C 27.093063 25 28 24.093063 28 23 L 28 7 C 28 5.9069372 27.093063 5 26 5 L 4 5 z M 6.6992188 7 L 23.300781 7 L 15 13.134766 L 6.6992188 7 z M 5 9.4746094 L 15 16.865234 L 25 9.4746094 L 25 23 L 5 23 L 5 9.4746094 z"></path></svg></td>
+                        <td style="font-family:  'Poppins', sans-serif; font-size: 15px; color:white;text-align:left;">eleapp_customercare@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="30" height="30"
+                            viewBox="0 0 30 30"
+                            style=" fill:#FFFFFF;">    <path d="M 15 3 C 8.373 3 3 8.373 3 15 C 3 17.251208 3.6323415 19.350068 4.7109375 21.150391 L 3.1074219 27 L 9.0820312 25.431641 C 10.829354 26.425062 12.84649 27 15 27 C 21.627 27 27 21.627 27 15 C 27 8.373 21.627 3 15 3 z M 10.892578 9.4023438 C 11.087578 9.4023438 11.287937 9.4011562 11.460938 9.4101562 C 11.674938 9.4151563 11.907859 9.4308281 12.130859 9.9238281 C 12.395859 10.509828 12.972875 11.979906 13.046875 12.128906 C 13.120875 12.277906 13.173313 12.453437 13.070312 12.648438 C 12.972312 12.848437 12.921344 12.969484 12.777344 13.146484 C 12.628344 13.318484 12.465078 13.532109 12.330078 13.662109 C 12.181078 13.811109 12.027219 13.974484 12.199219 14.271484 C 12.371219 14.568484 12.968563 15.542125 13.851562 16.328125 C 14.986562 17.342125 15.944188 17.653734 16.242188 17.802734 C 16.540187 17.951734 16.712766 17.928516 16.884766 17.728516 C 17.061766 17.533516 17.628125 16.864406 17.828125 16.566406 C 18.023125 16.268406 18.222188 16.319969 18.492188 16.417969 C 18.766188 16.515969 20.227391 17.235766 20.525391 17.384766 C 20.823391 17.533766 21.01875 17.607516 21.09375 17.728516 C 21.17075 17.853516 21.170828 18.448578 20.923828 19.142578 C 20.676828 19.835578 19.463922 20.505734 18.919922 20.552734 C 18.370922 20.603734 17.858562 20.7995 15.351562 19.8125 C 12.327563 18.6215 10.420484 15.524219 10.271484 15.324219 C 10.122484 15.129219 9.0605469 13.713906 9.0605469 12.253906 C 9.0605469 10.788906 9.8286563 10.071437 10.097656 9.7734375 C 10.371656 9.4754375 10.692578 9.4023438 10.892578 9.4023438 z"></path></svg></td>
+                        <td style="font-family: 'Poppins', sans-serif; font-size: 15px; color:white;text-align:left;">987456321</td>
+                    </tr>
+                    <tr>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="30" height="30"
+                            viewBox="0 0 30 30"
+                            style=" fill:#FFFFFF;">    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path></svg></td>
+                        <td style="font-family:  'Poppins', sans-serif; font-size: 15px; color:white;text-align:left;">@eleapp__</td>
+                    </tr>
+                    <tr>
+                        <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="30" height="30"
+                            viewBox="0 0 30 30"
+                            style=" fill:#FFFFFF;">    <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path></svg></td>
+                        <td style="font-family:  'Poppins', sans-serif; font-size: 15px; color:white;text-align:left;">@eleapp_official</td>
+                    </tr>
+                   
+                </table>              
+               
+            </td>
+        </tr>
+    </table>
+
+</div>
+<!--script for product dropdown-->
+<script type="text/javascript">
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+    </body>
+</html>
